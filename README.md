@@ -1,3 +1,6 @@
+
+![unnamed-1692303035474](https://github.com/ZFCon/phonebook/assets/26200198/48d32cb7-b03a-45e3-aadf-8ed2ea3f9b1b)
+
 ##### *Start the Project*
 
 ##### *Execute make migrate, so that the table gets created in the database*
