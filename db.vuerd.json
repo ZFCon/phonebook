@@ -1,0 +1,251 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": -502,
+    "scrollLeft": 0,
+    "zoomLevel": 0.5,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "ERD",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "book_contact",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "BIGINT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "64ac0843-f829-4b8e-bc4a-684115e7a289"
+          },
+          {
+            "name": "name",
+            "comment": "",
+            "dataType": "CHAR",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "b4048374-c44f-440e-ad14-1eb0b8de16e1"
+          },
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "BIGINT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "3350edbd-e181-44ca-bd4b-7e7f6aec214c"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 356,
+          "top": 358,
+          "zIndex": 2,
+          "widthName": 79.33349609375,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "e89791e7-4b44-487b-819c-b2bf1d3d6765"
+      },
+      {
+        "name": "book_phonenumber",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id",
+            "comment": "",
+            "dataType": "BIGINT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "5d4b247d-b2ba-4e35-aebb-8d031974b7c7"
+          },
+          {
+            "name": "contact_id",
+            "comment": "",
+            "dataType": "BIGINT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 61.26171875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "816bab02-ad9d-4581-a31b-6fd2710cbf87"
+          },
+          {
+            "name": "number",
+            "comment": "",
+            "dataType": "CHAR(20)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 61.95361328125,
+              "widthDefault": 60
+            },
+            "id": "cc666088-fab1-402e-99d6-6ecc69fa3ae7"
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 1023,
+          "top": 822,
+          "zIndex": 4,
+          "widthName": 117.64794921875,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "b0a27bda-e6a2-4902-afe2-ff07d5941f4d"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "b0a27bda-e6a2-4902-afe2-ff07d5941f4d",
+          "columnIds": [
+            "5d4b247d-b2ba-4e35-aebb-8d031974b7c7"
+          ],
+          "x": 1023,
+          "y": 887.25,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "e89791e7-4b44-487b-819c-b2bf1d3d6765",
+          "columnIds": [
+            "3350edbd-e181-44ca-bd4b-7e7f6aec214c"
+          ],
+          "x": 703,
+          "y": 423.25,
+          "direction": "right"
+        },
+        "constraintName": "fk_book_phonenumber_to_book_contact",
+        "visible": true,
+        "id": "131be188-09ad-4faa-9733-eb2cd82e65cb"
+      }
+    ]
+  }
+}
